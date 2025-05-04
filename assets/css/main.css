@@ -59,7 +59,39 @@ body {
 	margin-left: 20px;
   }
   
+  .card-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-top: 0px;
+  }
+  
   .tool-card {
+	padding: 10px 16px;
+	background-color: #f5f5f5;
+	border-radius: 8px;
+	text-decoration: none;
+	color: #000;
+	font-weight: 500;
+	box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+	transition: transform 0.2s;
+  }
+  
+  .tool-card:hover {
+	transform: scale(1.05);
+  }
+  
+  @media (max-width: 600px) {
+	.tool-card {
+	  flex: 1 1 calc(50% - 10px);
+	  text-align: center;
+	  font-size: 14px;
+	  padding: 8px 10px;
+	}
+  }
+  
+
+  /* .tool-card {
 	background-color: #f5f5f5;
 	color: #333;
 	border-radius: 12px;
@@ -73,7 +105,7 @@ body {
   .tool-card:hover {
 	background-color: #e0f7fa;
 	transform: scale(1.05);
-  }
+  } */
   
 /*  */
 html, body, div, span, applet, object,
