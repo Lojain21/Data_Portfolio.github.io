@@ -31,7 +31,7 @@ body {
 	background-color: #fff;
 	color: #333;
 	padding: 20px;
-	line-height: 0.5;
+	line-height: 1.3;
   }
   
   h2 {
@@ -40,6 +40,10 @@ body {
 	padding-bottom: 5px;
 	margin-top: 40px;
   }
+  p {
+	line-height: 1.3;
+  }
+  
   h3 {
 	color: #00695c;
 	border-bottom: 2px solid #e0f2f1;
